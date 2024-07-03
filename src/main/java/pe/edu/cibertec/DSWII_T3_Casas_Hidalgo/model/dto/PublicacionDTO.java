@@ -4,7 +4,8 @@ import lombok.Data;
 
 @Data
 public class PublicacionDTO {
-    private int idPublicacion;
+
+
     private String titulo;
     private String resumen;
     private String fechPublicacion;
