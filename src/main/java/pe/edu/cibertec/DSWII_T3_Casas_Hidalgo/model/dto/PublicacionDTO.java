@@ -3,7 +3,7 @@ package pe.edu.cibertec.DSWII_T3_Casas_Hidalgo.model.dto;
 import lombok.Data;
 
 @Data
-public class PublicacionDTO {
+public class PublicacionDTO implements DtoEntity{
 
 
     private String titulo;
